@@ -1,0 +1,17 @@
+# Table of contents
+
+* [GDScript Language](README.md)
+* [Everyday code](everyday-code/README.md)
+  * [Tricks for runtime](everyday-code/tricks-for-runtime.md)
+  * [Simple actions](everyday-code/simple-actions.md)
+* [Algorithms](algorithms/README.md)
+  * [Fisher-Yates algorithm](algorithms/fisher-yates-algorithm.md)
+* [Patterns](patterns/README.md)
+  * [Finite State Machine](patterns/finite-state-machine.md)
+  * [Observer](patterns/observer.md)
+* [Converting shaders](converting-shaders.md)
+* [Web export](web-export.md)
+* [Android export](android-export.md)
+* [My projects](my-projects.md)
+* [Tweens](tweens.md)
+* [Geometry](geometry.md)
