@@ -6,19 +6,19 @@ description: >-
 
 # Android export
 
-## Settings for Android export
+## Editor settings
 
-When Android Studio is installed
+Go to Editor -> Editor Setings -> General -> Export -> Android
 
-Android SDK path: **C:\Users\\\<username>\AppData\Local\Android\Sdk**
+{% hint style="info" %}
+When Android Studio is installed. But JDK is required for Jarsigner (Install JDK first \[answer]\([https://stackoverflow.com/a/12135749/1104612](https://stackoverflow.com/a/12135749/1104612)))
+{% endhint %}
 
-[`https://github.com/godotengine/godot/blob/96e70ac5f4f477eee3866ea788389a87d0dbd086/platform/android/export/export_plugin.cpp#L1962`](https://github.com/godotengine/godot/blob/96e70ac5f4f477eee3866ea788389a87d0dbd086/platform/android/export/export\_plugin.cpp#L1962)
+Ref: \[editor code]\([https://github.com/godotengine/godot/blob/96e70ac5f4f477eee3866ea788389a87d0dbd086/platform/android/export/export\_plugin.cpp#L1962](https://github.com/godotengine/godot/blob/96e70ac5f4f477eee3866ea788389a87d0dbd086/platform/android/export/export\_plugin.cpp#L1962))
 
-`adb`: **C:\Users\\\<username>\AppData\Local\Android\Sdk\platform-tools\adb.exe**
+ADB **C:\Users\\\<username>\AppData\Local\Android\Sdk\platform-tools\adb.exe**
 
-`apksigner:` **C:\Users\\\<username>\AppData\Local\Android\Sdk\build-tools\\\<build tools version>\apksigner.bat**
-
-`jarsigner`: **C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jarsigner.exe** (Install JDK first \[answer]\([https://stackoverflow.com/a/12135749/1104612](https://stackoverflow.com/a/12135749/1104612)))
+`jarsigner`: **C:\Program Files\AdoptOpenJDK\jdk-11.0.8.10-hotspot\bin\jarsigner.exe**&#x20;
 
 Debug keystore: **C:\Users\\\<username>\\.android\debug.keystore**
 
@@ -26,9 +26,11 @@ Debug keystore user: androiddebugkey
 
 Debug keystore password: android
 
+Android SDK path: **C:\Users\\\<username>\AppData\Local\Android\Sdk**
 
+`apksigner:` **C:\Users\\\<username>\AppData\Local\Android\Sdk\build-tools\\\<build tools version>\apksigner.bat**
 
-## Common errors
+## Troubleshooting
 
 ### Could not install to device
 

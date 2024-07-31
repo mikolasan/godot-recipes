@@ -15,3 +15,4 @@
 * [My projects](my-projects.md)
 * [Tweens](tweens.md)
 * [Geometry](geometry.md)
+* [GDScript playground](gdscript-playground.md)
