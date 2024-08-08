@@ -83,3 +83,16 @@ Load textures as resources. Drag and drop resources into the editor for the path
 ```gdscript
 onready var training_texture: Texture = load("res://Assets/meter_training.png")
 ```
+
+### Get local scene root
+
+
+
+```gdscript
+func get_local_scene_root(p_node : Node) -> Node:
+    while(p_node and not p_node.filename):
+        p_node = p_node.get_parent()
+
+    return p_node as Node
+
+```

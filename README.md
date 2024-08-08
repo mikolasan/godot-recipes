@@ -7,7 +7,7 @@ if typeof(data.selected_card.one_time_effect) == TYPE_OBJECT:
 	pass
 ```
 
-### Iterate over array# no index
+### Iterate over array
 
 ```gdscript
 # no index

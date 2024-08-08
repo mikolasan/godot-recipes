@@ -4,6 +4,8 @@
 * [Everyday code](everyday-code/README.md)
   * [Tricks for runtime](everyday-code/tricks-for-runtime.md)
   * [Simple actions](everyday-code/simple-actions.md)
+  * [Runtime loading scenes](everyday-code/runtime-loading-scenes.md)
+  * [Teleport](everyday-code/teleport.md)
 * [Algorithms](algorithms/README.md)
   * [Fisher-Yates algorithm](algorithms/fisher-yates-algorithm.md)
 * [Patterns](patterns/README.md)
