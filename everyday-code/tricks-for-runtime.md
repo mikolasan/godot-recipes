@@ -1,5 +1,15 @@
 # Tricks for runtime
 
+### Editor vs game
+
+```gdscript
+var scene_camera = null
+if Engine.is_editor_hint():
+	scene_camera = EditorInterface.get_editor_viewport_3d().get_camera_3d()
+else:
+	scene_camera = $Camera3D
+```
+
 ### Get window (viewport) size
 
 ```gdscript
