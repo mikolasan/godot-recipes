@@ -6,6 +6,7 @@
   * [Simple actions](everyday-code/simple-actions.md)
   * [Runtime loading scenes](everyday-code/runtime-loading-scenes.md)
   * [Teleport](everyday-code/teleport.md)
+  * [Physics](everyday-code/physics.md)
 * [Algorithms](algorithms/README.md)
   * [Fisher-Yates algorithm](algorithms/fisher-yates-algorithm.md)
 * [Patterns](patterns/README.md)
